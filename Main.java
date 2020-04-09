@@ -93,6 +93,7 @@ public class Main {
         }
         else if(i==3){
             Cont.remove(c1);
+            System.out.println("Updated Continental Food Menu: \n");
             Cont.forEach((C) -> {
                 System.out.println("Name: "+C.name+"\nId: "+C.id+"\nPrice: "+C.price+"\nIngredients: "+C.ingrd+"\n"+C.available);
             });
@@ -114,6 +115,7 @@ public class Main {
         }
         else if(in==4){
             Cont.remove(c1);
+            System.out.println("Updated Continental Food Menu: \n");
             Cont.forEach((C) -> {
                 System.out.println("Name: "+C.name+"\nId: "+C.id+"\nPrice: "+C.price+"\nIngredients: "+C.ingrd+"\n"+C.available);
             });
