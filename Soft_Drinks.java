@@ -9,6 +9,9 @@ public class Soft_Drinks extends Menu{
         super(name, id, price);
         this.color = color;
     }
+    public Soft_Drinks(String color, String name, String id, String price) {
+        super(name, id, price);
+        this.color = color;
 
     @Override
     public void show_Menu() {
