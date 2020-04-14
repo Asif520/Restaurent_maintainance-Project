@@ -9,6 +9,12 @@ public class Meal extends Menu {
         this.ingrd = ingrd;
     
     }
+     public Meal(String ingrd, String name, String id, String price) {
+        super(name, id, price);
+        this.ingrd = ingrd;
+    
+    }
+
 
     @Override
     public void show_Menu() {
