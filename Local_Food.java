@@ -8,6 +8,10 @@ public class Local_Food extends Meal{
         super(ingrd, name, id, price);
         this.Spicy = Spicy;
     }
+    public Local_Food(String Spicy, String ingrd, String name, String id, String price) {
+        super(ingrd, name, id, price);
+        this.Spicy = Spicy;
+    }
 
     @Override
     public void show_Menu() {
