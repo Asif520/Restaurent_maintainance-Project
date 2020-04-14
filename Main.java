@@ -13,7 +13,7 @@ public class Main {
         
                 
         //Soft Drinks
-        Soft_Drinks s1=  new Soft_Drinks("Black","Cocacola",101, 40);
+        Soft_Drinks s1=  new Soft_Drinks("Black","Cocacola","101","40");
         Soft_Drinks s2=  new Soft_Drinks("White","Mountain Dew",102, 30);
         Soft_Drinks s3=  new Soft_Drinks("Orange","Mirinda",103, 35);
         
