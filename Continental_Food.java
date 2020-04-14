@@ -8,6 +8,10 @@ public class Continental_Food extends Meal{
         super(ingrd, name, id, price);
         this.available = available;
     }
+     public Continental_Food(String available, String ingrd, String name, String id, String price) {
+        super(ingrd, name, id, price);
+        this.available = available;
+    }
 
     @Override
     public void show_Menu() {
