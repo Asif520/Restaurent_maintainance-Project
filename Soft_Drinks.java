@@ -17,12 +17,12 @@ public class Soft_Drinks extends Menu{
     public void show_Menu() {
        
         super.show_Menu(); 
-        System.out.println("Colorn :"+color);
+        System.out.println("Color :"+color);
     }
 
     @Override
     public String toString() {
-        return super.toString()+"Colorn :"+color;
+        return super.toString()+"Color :"+color;
     }
     
 }
